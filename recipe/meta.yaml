@@ -24,7 +24,7 @@ requirements:
 
 test:
   commands:
-    - test -f $SP_DIR/tornado-stubs/__init__.pyi
+    - test -f $SP_DIR/tornado-python2-stubs/__init__.pyi
 
 
 about:
