@@ -1,5 +1,5 @@
 {% set name = "types-tornado" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-tornado-{{ version }}.tar.gz
-  sha256: 500fbde033e56de14c845538fad6ace1dbb6e1d92147da10a3cbe9fcf3bb2b91
+  sha256: df0f918125c9cdea22b6031ff12614d05da714554b2f0d585a690c9dc424a526
 
 build:
   number: 0
