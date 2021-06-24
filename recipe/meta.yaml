@@ -1,5 +1,5 @@
 {% set name = "types-tornado" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-tornado-{{ version }}.tar.gz
-  sha256: 500fbde033e56de14c845538fad6ace1dbb6e1d92147da10a3cbe9fcf3bb2b91
+  sha256: b0ee26b95763e577a07f36b2a7b5e0dfbccc72801cca989564b319fb3a7fd71b
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
 
 test:
   commands:
-    - test -f $SP_DIR/tornado-stubs/__init__.pyi
+    - test -f $SP_DIR/tornado-python2-stubs/__init__.pyi
 
 
 about:
